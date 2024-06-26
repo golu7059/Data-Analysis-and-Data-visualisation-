@@ -99,3 +99,72 @@
 3. Presentation of Data
 4. Analysis of Data
 5. Interpretation of Data
+
+## Measure of Dispersion
+
+- Dispersoion is the state of getting dispersed or spread 
+- means the extend to which numerical data is likely to vary about an average value.
+- In other words, dispersion helps to understand the distribution of the data.
+
+#### Ojective of Measuring Dispersion 
+- To determine the realiability of an average 
+- To compare the variablility of two or more series
+- for facilitating the use of other statistical measures
+- Basis of Staticla Quality Control
+
+#### Properties of a good 
+- Easy to understand 
+- Simple to calculate 
+- Uniquiley defined 
+- Based on all observations
+- Not affected by extreme observations
+- Capable of further algebric treatment
+
+### Measures of Dispersion 
+1. Absolute : Expressed in the same units in which data is expressed . 
+- Eg : Rupees , Kgs , Ltr , etc
+2. Relative : In the form of ration or percentage . so , independent of units 
+- also called `coefficient of dispersions `
+
+### Methods of Measuring Dispersion
+
+1. **Range**
+2. **Interquartile Range and Quartile Deviation**
+3. **Mean Deviation**
+4. **Standard Deviation**
+5. **Coefficient of Variation**
+6. **Lorenz Curve**
+
+#### 1. Range
+- It is the simplest measure of dispersion.
+- It is defined as the difference between the highest and lowest values in a data set.
+- **Formula:** Range = Maximum Value - Minimum Value.
+- It gives a quick sense of the spread but is sensitive to outliers.
+
+#### 2. Interquartile Range (IQR) and Quartile Deviation
+- IQR measures the range within which the middle 50% of values lie.
+- Defined as the difference between the third quartile (Q3) and the first quartile (Q1).
+- **Formula:** IQR = Q3 - Q1.
+- Quartile Deviation (QD) is half of the IQR.
+- Less affected by outliers and extreme values.
+
+#### 3. Mean Deviation
+- It measures the average of the absolute deviations of values from the mean.
+- **Formula:** Mean Deviation = (Σ|xi - mean|) / N, where xi represents each value and N is the number of values.
+- Provides a straightforward measure of spread but does not consider the direction of deviation.
+
+#### 4. Standard Deviation
+- It measures the average distance of each value from the mean.
+- **Formula:** Standard Deviation (σ) = √[Σ(xi - mean)² / N].
+- It is widely used in statistics and provides insight into data variability.
+- Considers both the magnitude and direction of deviations.
+
+#### 5. Coefficient of Variation
+- It is the ratio of the standard deviation to the mean, expressed as a percentage.
+- **Formula:** CV = (Standard Deviation / Mean) × 100.
+- Useful for comparing the degree of variation between datasets with different units or means.
+
+#### 6. Lorenz Curve
+- It is a graphical representation of the distribution of income or wealth.
+- Plots the cumulative percentage of total income received against the cumulative percentage of recipients.
+- Helps in understanding inequality and concentration of wealth or income in a population.
